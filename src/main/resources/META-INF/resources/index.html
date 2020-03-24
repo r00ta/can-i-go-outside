@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Can I go Outside Today?</title>
+    <meta name="author" content="r00ta">
+    <meta name="description" content="Can I go outside today? is COVID-19 locking down your country? Coronavirus ">
+    <meta property="og:title" content="Can I go Outside?">
+    <meta property="og:description" content="Discover if you can go outside today">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.can-i-go-outside.com">
+    <meta property="og:site_name" content="Are you allowed go go outside today?">
+    <meta name="twitter:title" content="Can I go Outside today?">
+    <meta name="twitter:description" content="Find out if you can go outside today">
+    <style type="text/css">
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #f4f4f4;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #efefef;
+        }
+        body
+        {
+            color: #fff;
+            font-family:arial;
+            background: rgb(21, 55, 82);
+            overflow-x: hidden;
+        }
+
+        @media screen and
+        (min-width: 370px){
+         .footer{
+                font-size: 16px;
+                background-color: green;
+            }
+        }
+
+        h1{
+            font-size:180px;
+            margin: 16% 0 0 0;
+        }
+
+        a{
+            color: rgb(21, 55, 82);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 11px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .response{
+            margin: 0 auto;
+            text-align: center;
+        }
+        .su{
+            height: 18px;
+            color: #ccc;
+            position: absolute;
+            width: 99%;
+            top: 0;
+            background: #fff;
+
+        }
+        .sx{
+            height:100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 18px;
+            background: #fff;
+        }
+        .dx{
+            height:100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 18px;
+            background: #fff;
+        }
+        .footer{
+            text-align: center;
+            height: 18px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+             width: 100%;
+            font-size: 11px;
+            background: #fff;
+            line-height: 18px;
+            color: rgb(21, 55, 82);
+        }
+        </style>
+</head>
+<body>
+<div class="response">
+    <h1 id="responsetext">Thinking..</h1>
+</div>
+<div class="su"></div>
+<div class="sx"></div>
+<div class="dx"></div>
+<div class="footer">
+           <span>
+                <a href="mailto:canigooutsideinfo@gmail.com">canigooutsideinfo@gmail.com</a> &#183;
+                <a href="https://www.can-i-go-outside.com/privacy.html" title="Privacy Policy" target="_blank">Privacy Policy</a> &#183;
+                <a href="LOL" title="Give me money" target="_blank">Give me money</a>
+            </span>
+</div>
+<script type="text/javascript">
+            document.body.style.background = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+        </script>
+<script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', 'UA-161585834-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+
+<script>
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function update_body() {
+$.ajax({
+url: 'can-i-go-outside',
+success: async function(data) {
+await sleep(1000);
+var div = document.getElementById('responsetext');
+div.innerHTML = data;
+}
+});
+}
+
+update_body();
+
+</script>
+
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</body>
+</html>
